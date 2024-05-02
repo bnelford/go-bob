@@ -1,3 +1,5 @@
+[![Go](https://github.com/bnelford/go-bob/actions/workflows/go.yml/badge.svg)](https://github.com/bnelford/go-bob/actions/workflows/go.yml)
+
 # Bob
 
 Bob is a lackadaisical teenager. In conversation, his responses are very limited.
