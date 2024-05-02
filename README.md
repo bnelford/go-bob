@@ -1,4 +1,4 @@
-[![Go](https://github.com/bnelford/go-bob/actions/workflows/go.yml/badge.svg)](https://github.com/bnelford/go-bob/actions/workflows/go.yml)
+[![Build & Test](https://github.com/bnelford/go-bob/actions/workflows/gobuildandtest.yml/badge.svg)](https://github.com/bnelford/go-bob/actions/workflows/gobuildandtest.yml)
 
 # Bob
 
