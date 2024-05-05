@@ -22,11 +22,14 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '1.20'
+      # Init
+      - name: Init Module
+        run: go mod init bob
 
       # Install dependencies (if any)
       - name: Install dependencies
-        run: cd /home/runner/work/go-bob/go-bob && go mod tidy
+        run: go mod tidy
 
       # Run tests
       - name: Run Go tests
-        run: cd /home/runner/work/go-bob/go-bob && go test ./...
+        run: go test ./...
