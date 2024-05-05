@@ -25,8 +25,8 @@ jobs:
 
       # Install dependencies (if any)
       - name: Install dependencies
-        run: go mod tidy
+        run: cd /home/runner/work/go-bob/go-bob && go mod tidy
 
       # Run tests
       - name: Run Go tests
-        run: go test ./...
+        run: cd /home/runner/work/go-bob/go-bob && go test ./...
