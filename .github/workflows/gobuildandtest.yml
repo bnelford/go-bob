@@ -22,9 +22,6 @@ jobs:
         uses: actions/setup-go@v4
         with:
           go-version: '1.20'
-      # Init
-      - name: Init Module
-        run: go mod init bob
 
       # Install dependencies (if any)
       - name: Install dependencies
